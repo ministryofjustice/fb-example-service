@@ -1,0 +1,111 @@
+{
+  "_id": "pageAccounts",
+  "_type": "page.form",
+  "url": "/accounts",
+  "heading": "Tell us some more about yourself",
+  "model": "marital",
+  "components": [
+    {
+      "_id": "marital",
+      "_type": "select",
+      "name": "status",
+      "legend": "What is your marital status?",
+      "items": [{
+          "_id": "marital--none",
+          "_type": "option",
+          "value": "",
+          "label": "Please select"
+        },{
+          "_id": "marital--maried",
+          "_type": "option",
+          "value": "married",
+          "label": "Married"
+        },{
+          "_id": "marital--single",
+          "_type": "option",
+          "value": "single",
+          "label": "Single"
+        },{
+          "_id": "marital--divorced",
+          "_type": "option",
+          "value": "divorced",
+          "label": "Divorced"
+        },{
+          "_id": "marital--separated",
+          "_type": "option",
+          "value": "separated",
+          "label": "Separated"
+        }
+      ]
+    }, {
+      "_id": "maritalStatusDetails",
+      "_type": "textarea",
+      "name": "status_details",
+      "label": "Provide details of your marital status",
+      "validation": {
+        "required": {
+          "identifier": "marital.status",
+          "operator": "is",
+          "value": "married"
+        },
+        "minLength": 10,
+        "maxLength": 20
+      },
+      "errors": {
+        "required": {
+          "inline": "You must answer this question because you answered *‘Married’* to the previous question"
+        }
+      }
+    },{
+      "_id": "maritalYears",
+      "_type": "number",
+      "name": "years",
+      "label": "How many years have you been married?",
+      "validation": {
+        "minimum": 1,
+        "exclusiveMinimum": true,
+        "maximum": 100
+      }
+    },
+    {
+      "_id": "accounts",
+      "_type": "checkboxes",
+      "model": "account[0]",
+      "show": {
+        "identifier": "greeting",
+        "operator": "is",
+        "value": "Hello"
+      },
+      "validation": {
+        "required": true
+      },
+      "legend": "Do you have a bank or savings account?",
+      "items": [{
+          "_id": "accounts--bank",
+          "_type": "checkbox",
+          "name": "bank",
+          "value": "yes",
+          "label": "Bank account",
+          "show": {
+            "identifier": "planet",
+            "operator": "is",
+            "value": "bank"
+          }
+        },
+        {
+          "_id": "accounts--savings",
+          "_type": "checkbox",
+          "name": "savings",
+          "value": "yes",
+          "label": "Savings account",
+          "show": {
+            "identifier": "planet",
+            "operator": "is",
+            "value": "random",
+            "negated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "_id": "pageConfirmation",
+    "_type": "page.confirmation",
+    "url": "/confirmation",
+    "heading": "Thank you",
+    "body": "Your message is:\n\n**{greeting, select, helloworld{Hello World} other{{greeting} {planet}}}**"
+  }

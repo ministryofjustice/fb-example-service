@@ -1,0 +1,13 @@
+{
+  "_id": "pageStartExample",
+  "_type": "page.start",
+  "url": "/",
+  "heading": "Create a hello world message",
+  "body": "You can create a greeting for your favourite planet.\n\nIf you’re in a hurry or don’t have a favourite planet, you can ask for a basic hello world message.",
+  "steps": [
+    "pageGreeting",
+    "pagePlanet",
+    "pageAccounts",
+    "pageConfirmation"
+  ]
+}

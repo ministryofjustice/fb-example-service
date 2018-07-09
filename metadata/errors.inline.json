@@ -1,0 +1,15 @@
+{
+  "_type": "strings",
+  "_id": "errors.inline",
+  "format": "Your answer is not in the correct format",
+  "maxLength": "Your answer must contain no more than {maxLength} characters",
+  "minLength": "Your answer must contain at least {minLength} characters",
+  "maximum": "Your answer must be less than or equal to {maximum}",
+  "minimum": "Your answer must be greater than or equal to {minimum}",
+  "exclusiveMaximum": "Your answer must be less than {maximum}",
+  "exclusiveMinimum": "Your answer must be greater than {minimum}",
+  "pattern": "Your answer does not match this pattern ({pattern})",
+  "required": "Please answer this question",
+  "required.checkboxes": "Please choose at least one of the options",
+  "required.radios": "Please choose one of the answers"
+}

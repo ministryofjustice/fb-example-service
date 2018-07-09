@@ -1,0 +1,16 @@
+{
+  "_type": "strings",
+  "_id": "errors.summary",
+  "format": "Your answer for “{control}” is not in the correct format",
+  "heading": "There {errorCount, plural, 1 {was a problem} other {were problems}} on the page",
+  "maximum": "Your answer for “{control}” is greater than or equal to the maximum allowed {maximum}",
+  "minimum": "Your answer for “{control}” is less than or equal to the minimum allowed {minimum}",
+  "exclusiveMaximum": "Your answer for “{control}” is greater than the maximum allowed {maximum}",
+  "exclusiveMinimum": "Your answer for “{control}” is less than the minimum allowed {minimum}",
+  "maxLength": "Your answer for {control} is too long ({maxLength} characters at most)",
+  "minLength": "Your answer for {control} is too short ({minLength} characters at least)",
+  "pattern": "Your answer for “{control}” does not match the pattern ({pattern})",
+  "required": "Please answer the question “{control}”",
+  "required.checkboxes": "Please choose at least one of the options for “{control}”",
+  "required.radios": "Please choose one of the answers for “{control}”"
+}
