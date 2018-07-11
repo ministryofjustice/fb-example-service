@@ -1,17 +1,19 @@
 {
-    "_id": "pagePlanet",
-    "_type": "page.singlequestion",
-    "url": "/planet",
-    "components": [{
+  "_id": "pagePlanet",
+  "_type": "page.singlequestion",
+  "components": [
+    {
       "_id": "pagePlanet--planet",
       "_type": "text",
-      "name": "planet",
       "label": "What is your favourite planet?",
+      "name": "planet",
       "show": {
         "identifier": "greeting",
+        "negated": true,
         "operator": "is",
-        "value": "helloworld",
-        "negated": true
+        "value": "helloworld"
       }
-    }]
-  }
+    }
+  ],
+  "url": "/planet"
+}
