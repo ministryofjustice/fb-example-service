@@ -1,25 +1,25 @@
 {
-  "_id": "page.radio",
+  "_id": "page.want",
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.radio--radios",
+      "_id": "page.want--radios",
       "_type": "radios",
       "items": [
         {
-          "_id": "page.radio--radios--yes",
+          "_id": "page.want--radios--yes",
           "_type": "radio",
           "label": "Yes",
           "value": "yes"
         },
         {
-          "_id": "page.radio--radios--no",
+          "_id": "page.want--radios--no",
           "_type": "radio",
           "label": "No",
           "value": "no"
         },
         {
-          "_id": "page.radio--radios--unsure",
+          "_id": "page.want--radios--unsure",
           "_type": "radio",
           "label": "Not sure",
           "value": "unsure"
@@ -29,5 +29,11 @@
       "name": "raydar"
     }
   ],
+  "steps": [
+    "page.wantyes",
+    "page.wantno",
+    "page.wantunsure"
+  ],
+  "stepsHeading": "Wanting it",
   "url": "/doyouwant"
 }

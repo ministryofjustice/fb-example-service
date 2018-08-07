@@ -7,10 +7,7 @@
     "pageGreeting",
     "pagePlanet",
     "pagePlanet2",
-    "page.radio",
-    "page.wantyes",
-    "page.wantno",
-    "page.wantunsure",
+    "page.want",
     "pageAccounts",
     "pageCheckYourAnswers",
     "pageConfirmation"
