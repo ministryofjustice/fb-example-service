@@ -1,0 +1,18 @@
+{
+  "_id": "page.wantunsure",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.wantunsure--details",
+      "_type": "textarea",
+      "label": "Why aren't you sure?",
+      "name": "wantunsure",
+      "show": {
+        "identifier": "raydar",
+        "operator": "is",
+        "value": "unsure"
+      }
+    }
+  ],
+  "url": "/wantunsure"
+}

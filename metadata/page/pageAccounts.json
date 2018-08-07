@@ -37,8 +37,20 @@
           "value": "separated"
         }
       ],
+      "label": "What is your marital status?",
       "legend": "What is your marital status?",
       "name": "status"
+    },
+    {
+      "_id": "maritalYears",
+      "_type": "number",
+      "label": "How many years have you been married?",
+      "name": "years",
+      "validation": {
+        "exclusiveMinimum": true,
+        "maximum": 100,
+        "minimum": 1
+      }
     },
     {
       "_id": "maritalStatusDetails",
@@ -58,17 +70,6 @@
           "operator": "is",
           "value": "married"
         }
-      }
-    },
-    {
-      "_id": "maritalYears",
-      "_type": "number",
-      "label": "How many years have you been married?",
-      "name": "years",
-      "validation": {
-        "exclusiveMinimum": true,
-        "maximum": 100,
-        "minimum": 1
       }
     },
     {
@@ -115,5 +116,6 @@
   ],
   "heading": "Tell us some more about yourself",
   "model": "marital",
+  "steps": [],
   "url": "/accounts"
 }

@@ -1,0 +1,7 @@
+{
+  "_id": "service",
+  "_type": "config.service",
+  "name": "My first service",
+  "phase": "beta",
+  "phaseText": "Quite a boring service actually"
+}

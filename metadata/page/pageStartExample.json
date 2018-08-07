@@ -6,7 +6,13 @@
   "steps": [
     "pageGreeting",
     "pagePlanet",
+    "pagePlanet2",
+    "page.radio",
+    "page.wantyes",
+    "page.wantno",
+    "page.wantunsure",
     "pageAccounts",
+    "pageCheckYourAnswers",
     "pageConfirmation"
   ],
   "url": "/"

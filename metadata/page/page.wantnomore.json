@@ -1,0 +1,15 @@
+{
+  "_id": "page.wantnomore",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.wantnomore--details",
+      "_type": "text",
+      "label": "Tell us something more about why not",
+      "name": "wantnomore"
+    }
+  ],
+  "model": "crikey",
+  "repeatable": true,
+  "url": "/wantnomore"
+}

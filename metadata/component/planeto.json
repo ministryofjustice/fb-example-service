@@ -1,0 +1,13 @@
+    {
+      "_id": "planeto",
+      "_type": "text",
+      "label": "What is your favourite planet?",
+      "name": "planet",
+      "show": {
+        "identifier": "greeting",
+        "negated": true,
+        "operator": "is",
+        "value": "helloworld"
+      },
+      "widthClassInput": "30"
+    }

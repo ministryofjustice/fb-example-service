@@ -1,0 +1,19 @@
+{
+  "_id": "pagePlanet2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "pagePlanet--planet2",
+      "_type": "number",
+      "label": "What is the number of your favourite planet?",
+      "name": "planet2",
+      "show": {
+        "identifier": "greeting",
+        "negated": true,
+        "operator": "is",
+        "value": "helloworld"
+      }
+    }
+  ],
+  "url": "/planet2"
+}

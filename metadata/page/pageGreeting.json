@@ -26,8 +26,10 @@
         }
       ],
       "label": "What greeting would you like to use?",
+      "legend": "What greeting would you like to use?",
       "name": "greeting"
     }
   ],
+  "sectionHeading": "Not getting me",
   "url": "/greeting"
 }

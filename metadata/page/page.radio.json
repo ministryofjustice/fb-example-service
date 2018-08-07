@@ -1,0 +1,33 @@
+{
+  "_id": "page.radio",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.radio--radios",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.radio--radios--yes",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "_id": "page.radio--radios--no",
+          "_type": "radio",
+          "label": "No",
+          "value": "no"
+        },
+        {
+          "_id": "page.radio--radios--unsure",
+          "_type": "radio",
+          "label": "Not sure",
+          "value": "unsure"
+        }
+      ],
+      "legend": "Do you want to do it?",
+      "name": "raydar"
+    }
+  ],
+  "url": "/doyouwant"
+}

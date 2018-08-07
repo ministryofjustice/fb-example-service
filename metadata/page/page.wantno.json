@@ -1,0 +1,21 @@
+{
+  "_id": "page.wantno",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.wantno--details",
+      "_type": "textarea",
+      "label": "Why don’t you want to do it?",
+      "name": "wantno",
+      "show": {
+        "identifier": "raydar",
+        "operator": "is",
+        "value": "no"
+      }
+    }
+  ],
+  "steps": [
+    "page.wantnomore"
+  ],
+  "url": "/wantno"
+}

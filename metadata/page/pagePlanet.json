@@ -5,6 +5,15 @@
     {
       "_id": "pagePlanet--planet",
       "_type": "text",
+      "errors": {
+        "pattern": {
+          "summary": "Your favourite planet should be a 2 numbers followed by a dash and then 5 numbers, eg, 12-abcde"
+        },
+        "required": {
+          "inline": "Gissa a planet, mate",
+          "summary": "{control} really needs a planet"
+        }
+      },
       "label": "What is your favourite planet?",
       "name": "planet",
       "show": {
@@ -12,7 +21,13 @@
         "negated": true,
         "operator": "is",
         "value": "helloworld"
-      }
+      },
+      "validation": {
+        "maxLength": 200,
+        "minLength": 3,
+        "required": true
+      },
+      "widthClassInput": "10"
     }
   ],
   "url": "/planet"

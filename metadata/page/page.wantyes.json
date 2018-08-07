@@ -1,0 +1,18 @@
+{
+  "_id": "page.wantyes",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.wantyes--details",
+      "_type": "text",
+      "label": "Why do you want to do it?",
+      "name": "wantyes",
+      "show": {
+        "identifier": "raydar",
+        "operator": "is",
+        "value": "yes"
+      }
+    }
+  ],
+  "url": "/wantyes"
+}
