@@ -21,5 +21,5 @@ npm install
 ```
 cd fb-runner-node
 
-SERVICEDATA=<PATHTO>/fb-example-service npm start
+SERVICE_PATH=<PATHTO>/fb-example-service npm start
 ```
