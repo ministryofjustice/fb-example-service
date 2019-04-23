@@ -1,4 +1,4 @@
-# fb-example-servie
+# fb-example-service
 
 Form Builder example service
 
