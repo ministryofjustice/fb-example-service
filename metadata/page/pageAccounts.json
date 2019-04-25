@@ -9,32 +9,40 @@
         {
           "_id": "marital--none",
           "_type": "option",
-          "label": "Please select",
+          "text": "Please select",
           "value": ""
         },
         {
           "_id": "marital--maried",
           "_type": "option",
-          "label": "Married",
+          "text": "Married",
           "value": "married"
         },
         {
           "_id": "marital--single",
           "_type": "option",
-          "label": "Single",
+          "text": "Single",
           "value": "single"
         },
         {
           "_id": "marital--divorced",
           "_type": "option",
-          "label": "Divorced",
+          "text": "Divorced",
           "value": "divorced"
         },
         {
           "_id": "marital--separated",
           "_type": "option",
-          "label": "Separated",
+          "text": "Separated",
           "value": "separated"
+        },
+        {
+          "_id": "marital--option",
+          "_type": "option"
+        },
+        {
+          "_id": "marital--option--2",
+          "_type": "option"
         }
       ],
       "label": "What is your marital status?",
@@ -103,7 +111,7 @@
         }
       ],
       "legend": "Do you have a bank or savings account?",
-      "model": "account[0]",
+      "namespace": "account[0]",
       "show": {
         "identifier": "greeting",
         "operator": "is",
@@ -115,7 +123,7 @@
     }
   ],
   "heading": "Tell us some more about yourself",
-  "model": "marital",
+  "namespace": "marital",
   "steps": [],
   "url": "/accounts"
 }
