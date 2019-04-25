@@ -9,7 +9,7 @@
       "name": "wantnomore"
     }
   ],
-  "model": "crikey",
+  "namespace": "crikey",
   "repeatable": true,
   "url": "/wantnomore"
 }
