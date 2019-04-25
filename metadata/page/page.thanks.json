@@ -1,0 +1,28 @@
+{
+  "_id": "page.thanks",
+  "_type": "page.confirmation",
+  "body": "Your message is:\r\n\r\n**{greeting, select, helloworld{Hello World} other{{greeting} {planet}} undefined{GREETING}}**",
+  "components": [
+    {
+      "_id": "page.thanks--content",
+      "_type": "content",
+      "html": "And hello to {planet, select, undefined{PLANET} other{planet}}’s {moons, select, undefined{X} other{moons}} {moons, select, 1{moon} other{moons}}.",
+      "show": {
+        "all": [
+          {
+            "identifier": "moons",
+            "operator": "defined"
+          },
+          {
+            "identifier": "moons",
+            "negated": true,
+            "operator": "equals",
+            "value": "0"
+          }
+        ]
+      }
+    }
+  ],
+  "heading": "Thank you",
+  "url": "/confirmation"
+}

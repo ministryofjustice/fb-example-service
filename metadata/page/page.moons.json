@@ -1,19 +1,22 @@
 {
-  "_id": "pagePlanet2",
+  "_id": "page.moons",
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "pagePlanet--planet2",
+      "_id": "pageMoons--moons",
       "_type": "number",
-      "label": "What is the number of your favourite planet?",
-      "name": "planet2",
+      "label": "How many moons does your favourite planet have?",
+      "name": "moons",
       "show": {
         "identifier": "greeting",
         "negated": true,
         "operator": "is",
         "value": "helloworld"
+      },
+      "validation": {
+        "required": false
       }
     }
   ],
-  "url": "/planet2"
+  "url": "/moons"
 }
