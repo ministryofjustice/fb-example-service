@@ -7,9 +7,11 @@ A simple example form for Form Builder
 
 ## Usage
 
-The easiest way to get this form up and running is to use the [`Form Builder Editor Console`](https://github.com/ministryofjustice/fb-editor-console-electron).
+The simplest way to run this form is to use the [`Form Builder Editor Console`](https://github.com/ministryofjustice/fb-editor-console-electron).
 
 It can be downloaded [here](https://github.com/ministryofjustice/fb-editor-console-electron/releases)
+
+NB. the Console app is currently Mac-only and is unsigned
 
 - Open the app and wait for installation to complete
 - Click `Add existing form`
@@ -24,12 +26,15 @@ The form will open in a new window in your default browser.
 You can also run the form  using the Form Builder Editor or Runner
 
 - [Editor](https://github.com/ministryofjustice/fb-editor-node)
-- [Runner installation instructions](https://github.com/ministryofjustice/fb-runner-node)
+- [Runner](https://github.com/ministryofjustice/fb-runner-node)
 
-```
+```sh
+# Clone this repo
 git clone https://github.com/ministryofjustice/fb-example-service.git
 
+# Change to the directory where editor/runner installed
 cd /path/to/editor-or-runner
 
+# Run the form
 SERVICE_PATH=/path/to/fb-example-service npm start
 ```
