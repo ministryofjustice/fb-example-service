@@ -1,5 +1,5 @@
 {
-  "_id": "pageGreeting",
+  "_id": "page.greeting",
   "_type": "page.singlequestion",
   "components": [
     {

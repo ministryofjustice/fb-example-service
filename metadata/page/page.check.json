@@ -1,5 +1,5 @@
 {
-  "_id": "pageCheckYourAnswers",
+  "_id": "page.check",
   "_type": "page.summary",
   "heading": "Check your answers",
   "url": "/summary"
