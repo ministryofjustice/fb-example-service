@@ -11,7 +11,7 @@ The simplest way to run this form is to use the [`Form Builder Editor Console`](
 
 It can be downloaded [here](https://github.com/ministryofjustice/fb-editor-console-electron/releases)
 
-NB. the Console app is currently Mac-only and is unsigned
+*NB. the Console app is currently Mac-only*
 
 - Open the app and wait for installation to complete
 - Click `Add existing form`
